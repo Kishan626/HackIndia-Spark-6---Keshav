@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Students - School Data Management (Web3)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>List of Students</h1>
+        <ul id="studentList"></ul>
+        <br>
+        <a href="add.html">Add Student Data</a><br>
+        <a href="update.html">Update Student Data</a><br>
+        <a href="delete.html">Delete Student</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        window.addEventListener('load', async () => {
+            await initWeb3();
+        });
+    </script>
+</body>
+</html>

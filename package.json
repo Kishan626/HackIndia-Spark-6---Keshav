@@ -1,0 +1,33 @@
+{
+    "name": "web3-school-data-management",
+    "version": "1.0.0",
+    "description": "A Web3-based school data management system",
+    "main": "index.js",
+    "scripts": {
+      "test": "truffle test",
+      "lint": "eslint .",
+      "start": "ganache-cli",
+      "migrate": "truffle migrate",
+      "deploy": "truffle migrate --network development",
+      "deploy:rinkeby": "truffle migrate --network rinkeby"
+    },
+    "dependencies": {
+      "@truffle/hdwallet-provider": "^2.0.4",
+      "dotenv": "^16.0.3",
+      "web3": "^1.9.1"
+    },
+    "devDependencies": {
+      "eslint": "^8.27.0",
+      "eslint-plugin-import": "^2.27.5",
+      "mocha": "^10.2.0",
+      "truffle": "^5.8.11",
+      "ganache-cli": "^6.12.2"
+    },
+    "engines": {
+      "node": ">=14.0.0",
+      "npm": ">=6.0.0"
+    },
+    "author": "Kishan_Pandit",
+    "license": "MIT"
+  }
+  

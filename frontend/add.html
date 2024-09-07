@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student - School Data Management (Web3)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Add Student</h1>
+        <div class="form">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName" placeholder="Enter Name" required><br>
+            <label for="studentGrade">Student Grade:</label>
+            <input type="text" id="studentGrade" placeholder="Enter Grade" required>
+            <button onclick="addStudent()">Add Student</button>
+        </div>
+        <br>
+        <a href="update.html">Update Student Data</a><br>
+        <a href="delete.html">Delete Student Data</a><br>
+        <a href="list.html">View Student List</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+        window.addEventListener('load', async () => {
+            await initWeb3();
+        });
+    </script>
+</body>
+</html>
