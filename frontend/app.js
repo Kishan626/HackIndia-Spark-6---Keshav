@@ -1,6 +1,6 @@
 let web3;
 let schoolContract;
-let contractAddress = '0x0ED1A556d86072F2fd14eF210E2b95aE794865D6';
+let contractAddress = '0x770b637A01850CC102BcC32296bA1f570c66F403';
 let contractABI = [
     {
       "anonymous": false,
